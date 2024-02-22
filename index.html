@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeconds</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="no-view">No view</div>
+    <div id="header"></div>
+    <div id="app">
+        <section id="sidebar" class="closed">
+            <div class="navigation-x-logo">
+                <div class="logo item">
+                    <img draggable="false" src="assets/icons-general/logo.svg" alt="">
+                    <h1>Zeconds</h1>
+                </div>
+                <div class="navigation">
+                    <div class="item feature" id="feature_dashboard">
+                        <div class="gradient"></div>
+                        <img draggable="false" src="assets/icons-general/dashboard.svg" alt="">
+                        <p>Dashboard</p>
+                    </div>
+                    <div class="item feature" id="feature_select-watches">
+                        <div class="gradient"></div>
+                        <img draggable="false" src="assets/icons-general/select-watches.svg" alt="">
+                        <p>Select watches</p>
+                    </div>
+                    <div class="item feature" id="feature_restart">
+                        <div class="gradient"></div>
+                        <img draggable="false" src="assets/icons-general/restart.svg" alt="">
+                        <p>Restart</p>
+                    </div>
+                </div>
+            </div>
+            <div class="settings-container">
+                <div class="item feature" id="settings">
+                    <div class="gradient"></div>
+                    <img draggable="false" src="assets/icons-general/settings.svg" alt="">
+                    <p>Settings</p>
+                </div>
+            </div>
+            <!-- <div class="button-container">
+                <button>Open</button>
+            </div> -->
+        </section>
+        <section id="content-area" class="wide">
+            <div id="restart">
+                <div class="window">
+                    <p>Are you sure you want to <span>restart</span>?</p>
+                    <div class="buttons">
+                        <button class="yes">Yes</button>
+                        <button class="no">No</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="dashboard">
+                <div class="first"></div>
+                <div class="second"></div>
+            </div>
+            <div id="select-watches"></div>
+        </section>
+    </div>
+    
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
