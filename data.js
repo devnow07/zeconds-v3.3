@@ -6,7 +6,7 @@ let mainData = [
     {id: 'html_x_css-13243', name: 'HTML & CSS', imgPath: "assets/icons-fields/html_x_css.svg", isSelected: true},
     {id: 'discrete_mathematics-99001', name: 'Discrete Mathematics', imgPath: "assets/icons-fields/discrete_mathematics.svg", isSelected: true},
     {id: 'stem-99123',name: 'STEM', imgPath: "assets/icons-fields/stem.svg", specific: false},
-    {id: 'marketing_x_sales-88231', name: 'Marketing x Sales', imgPath: "assets/icons-fields/marketing_x_sales.svg", isSelected: true},
+    {id: 'marketing-88231', name: 'Marketing', imgPath: "assets/icons-fields/marketing.svg", isSelected: true},
     {id: 'virtuell-00001',name: 'Virtuell', imgPath: "assets/icons-fields/virtuell.svg", insikt: false},
     {id: 'hushall-00012',name: 'Hushåll', imgPath: "assets/icons-fields/hushall.svg", insikt: false},
     {id: 'seo-87714', name: 'SEO', imgPath: "assets/icons-fields/seo.svg"},
