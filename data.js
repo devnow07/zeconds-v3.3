@@ -27,7 +27,7 @@ let mainData = [
     {id: 'free_reading-00112',name: 'Free Reading', imgPath: "assets/icons-fields/free_reading.svg", insikt: false},
     {id: 'decoded-63244',name: 'Decoded', imgPath: "assets/icons-fields/decoded.svg", insikt: false},
     {id: 'decoded_(ov)-09932', name: 'Decoded (Ov)', imgPath: "assets/icons-fields/decoded_(ov).svg", insikt: false, rank: 1, overlapping: true},
-    {id: 'ulp_(ov)-09932', name: 'ULP (Ov)', imgPath: "assets/icons-fields/ulp.png", insikt: false, rank: 2, overlapping: true},
+    {id: 'ulp_(ov)-09932', name: 'ULP (Ov)', imgPath: "assets/icons-fields/ulp.png", insikt: false, overlapping: true},
     {id: 'fortnite-13345', name: 'Fortnite', imgPath: "assets/icons-fields/fortnite.png", insikt: false, rank: 1}
 ]
 
